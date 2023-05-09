@@ -1,0 +1,197 @@
+﻿<Window x:Class="WpfAppCalc.Programmer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppCalc"
+        mc:Ignorable="d"
+        Title="Programmer" Height="550" Width="700">
+
+    <Window.Resources>
+        <Style x:Key="ButtonTop">
+            <Setter Property="Button.Width" Value="80" />
+            <Setter Property="Button.Height" Value="25" />
+            <Setter Property="Button.Background" Value="Transparent" />
+            <Setter Property="Button.BorderThickness" Value="0" />
+        </Style>
+
+        <Style x:Key="ButtonGray">
+            <Setter Property="Button.Width" Value="80"/>
+            <Setter Property="Button.Height" Value="38"/>
+            <Setter Property="Button.Background" Value="LightGray"/>
+            <Setter Property="Button.BorderBrush" Value="Transparent"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+        </Style>
+
+        <Style x:Key="ButtonWhite">
+            <Setter Property="Button.Width" Value="80"/>
+            <Setter Property="Button.Height" Value="38"/>
+            <Setter Property="Button.Background" Value="White"/>
+            <Setter Property="Button.BorderBrush" Value="LightGray"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+        </Style>
+
+        <Style x:Key="ButtonRed">
+            <Setter Property="Button.Width" Value="80"/>
+            <Setter Property="Button.Height" Value="38"/>
+            <Setter Property="Button.Background" Value="Pink"/>
+            <Setter Property="Button.BorderBrush" Value="Transparent"/>
+            <Setter Property="Button.FontSize" Value="20"/>
+        </Style>
+
+        <Style x:Key="ButtonString">
+            <Setter Property="Grid.ColumnSpan" Value="5"/>
+            <Setter Property="Button.FontWeight" Value="Bold"/>
+            <Setter Property="Button.HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Button.BorderBrush" Value="Transparent"/>
+            <Setter Property="Button.Background" Value="Transparent"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="87.5"></ColumnDefinition>
+            <ColumnDefinition Width="87.5"></ColumnDefinition>
+            <ColumnDefinition Width="87.5"></ColumnDefinition>
+            <ColumnDefinition Width="87.5"></ColumnDefinition>
+            <ColumnDefinition Width="87.5"></ColumnDefinition>
+            <ColumnDefinition Width="87.5"></ColumnDefinition>
+            <ColumnDefinition Width="87.5"></ColumnDefinition>
+            <ColumnDefinition Width="87.5"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <WrapPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4">
+            <Menu>
+                <MenuItem Header="Menu" Height="40">
+                    <MenuItem Header="Калькулятор" FontWeight="Bold" />
+                    <MenuItem Header="Обычный" Click="MenuItem_Click" />
+                    <MenuItem Header="Инженерный" Click="MenuItem_Click_1" />
+                    <MenuItem Header="Построение графиков" Click="MenuItem_Click_2" />
+                    <MenuItem Header="Программист" />
+                    <MenuItem Header="Вычисление даты" />
+                    <MenuItem Header="Преобразователь" FontWeight="Bold" />
+                    <MenuItem Header="Валюта" />
+                    <MenuItem Header="Объем" />
+                    <MenuItem Header="Длина" />
+                    <MenuItem Header="Вес и масса" />
+                    <MenuItem Header="Температура" />
+                    <MenuItem Header="О программе" />
+                </MenuItem>
+            </Menu>
+            <Label Content="Programmer" FontSize="20" FontWeight="Bold" Margin="2" />
+        </WrapPanel>
+
+        <Label Grid.Row="1" 
+               Grid.Column="0" 
+               Grid.ColumnSpan="5" 
+               FontSize="30" 
+               FontWeight="Bold" 
+               HorizontalAlignment="Right" 
+               VerticalAlignment="Center">
+            0
+        </Label>
+
+        <Button Grid.Row="2" Content="HEX 0" Style="{StaticResource ButtonString}" />
+        <Button Grid.Row="3" Content="DEC 0" Style="{StaticResource ButtonString}" />
+        <Button Grid.Row="4" Content="OCT 0" Style="{StaticResource ButtonString}" />
+        <Button Grid.Row="5" Content="BIN 0" Style="{StaticResource ButtonString}" />
+
+        <WrapPanel Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="5">
+            <Button Content="Full" Style="{StaticResource ButtonTop}"/>
+            <Button Content="Bit" Style="{StaticResource ButtonTop}"/>
+            <Button Content="Word" Style="{StaticResource ButtonTop}"/>
+            <Button Content="MS" Style="{StaticResource ButtonTop}"/>
+        </WrapPanel>
+
+                <WrapPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="5">
+            <Menu>
+                <MenuItem Header="Побитовый" Height="25">
+                    <WrapPanel Width="120" Height="80">
+                        <Button Content="AND" Height="40" Width="40"/>
+                        <Button Content="OR" Height="40" Width="40"/>
+                        <Button Content="NOT" Height="40" Width="40"/>
+                        <Button Content="NAND" Height="40" Width="40"/>
+                        <Button Content="NOR" Height="40" Width="40"/>
+                        <Button Content="XOR" Height="40" Width="40"/>
+                    </WrapPanel>
+                </MenuItem>
+                <MenuItem Header="Сдвиг битов" Height="25">
+                    <WrapPanel Width="200" Height="80">
+                        <Menu>
+                            <CheckBox Content="Арифметический сдвиг" />
+                            <CheckBox Content="Логический сдвиг" />
+                            <CheckBox Content="Циклический сдвиг" />
+                            <CheckBox Content="Циклический сдвиг с переносом" />
+                        </Menu>
+                    </WrapPanel>
+                </MenuItem>
+            </Menu>
+        </WrapPanel>
+
+        <WrapPanel Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="7">
+            <Button Content="A" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="&lt;&lt;" Style="{StaticResource ButtonGray}"/>
+            <Button Content=">>" Style="{StaticResource ButtonGray}"/>
+            <Button Content="C" Style="{StaticResource ButtonGray}"/>
+            <Button Content="Back" Style="{StaticResource ButtonGray}"/>
+            <Button Content="B" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="(" Style="{StaticResource ButtonGray}"/>
+            <Button Content=")" Style="{StaticResource ButtonGray}"/>
+            <Button Content="%" Style="{StaticResource ButtonGray}"/>
+            <Button Content="/" Style="{StaticResource ButtonGray}"/>
+            <Button Content="C" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="7" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="8" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="9" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="*" Style="{StaticResource ButtonGray}"/>
+            <Button Content="D" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="4" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="5" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="6" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="-" Style="{StaticResource ButtonGray}"/>
+            <Button Content="E" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="1" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="2" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="3" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="+" Style="{StaticResource ButtonGray}"/>
+            <Button Content="F" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="+/-" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="0" Style="{StaticResource ButtonWhite}"/>
+            <Button Content="," Style="{StaticResource ButtonWhite}"/>
+            <Button Content="=" Style="{StaticResource ButtonRed}"/>
+        </WrapPanel>
+
+        <TabControl Grid.Column="5" Grid.Row="0" Grid.ColumnSpan="3" Grid.RowSpan="10" BorderThickness="0">
+            <TabItem Height="40" Width="60" Margin="0,-1,0,0" VerticalAlignment="Top">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontWeight="Bold">Память</TextBlock>
+                    </StackPanel>
+                </TabItem.Header>
+                <TabItem.Content>
+                    <TextBlock Height="450">В памяти ничего не сохранено</TextBlock>
+                </TabItem.Content>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,56 @@
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.exe
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.deps.json
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.runtimeconfig.json
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.runtimeconfig.dev.json
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.dll
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.pdb
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.csproj.AssemblyReference.cache
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc_MarkupCompile.cache
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc_MarkupCompile.lref
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.g.resources
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.AssemblyInfoInputs.cache
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.AssemblyInfo.cs
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.csproj.CoreCompileInputs.cache
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.dll
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\refint\WpfAppCalc.dll
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.pdb
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.genruntimeconfig.cache
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\ref\WpfAppCalc.dll
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Inger.g.cs
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Inger.baml
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Plotting.g.cs
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Plotting.baml
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Programmer.g.cs
+C:\Users\Админ\source\repos\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Programmer.baml
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.exe
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.deps.json
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.runtimeconfig.json
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.runtimeconfig.dev.json
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.dll
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\bin\Debug\net5.0-windows\WpfAppCalc.pdb
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.csproj.AssemblyReference.cache
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Inger.g.cs
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Plotting.g.cs
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Programmer.g.cs
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\App.g.cs
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc_MarkupCompile.cache
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc_MarkupCompile.lref
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Inger.baml
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\MainWindow.baml
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Plotting.baml
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\Programmer.baml
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.g.resources
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.AssemblyInfoInputs.cache
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.AssemblyInfo.cs
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.csproj.CoreCompileInputs.cache
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.dll
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\refint\WpfAppCalc.dll
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.pdb
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\WpfAppCalc.genruntimeconfig.cache
+C:\Users\Админ\Desktop\ДЗ\WPF\дз 2\WpfAppCalc\WpfAppCalc\obj\Debug\net5.0-windows\ref\WpfAppCalc.dll
